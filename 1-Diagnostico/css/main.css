@@ -1,0 +1,79 @@
+*{box-sizing:border-box; 
+ background-color: #182c9c;
+}
+body{font-family:  sans-serif; 
+    }
+form{width: 400px; margin: auto auto; border: solid 1px #ccc; padding: 20px; display: flex; flex-direction: column;  justify-content: center;}
+
+input[type=text], input[type=password]{
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.section button{
+    border: 0;
+    outline: 0;
+    background-color:  rgb(228, 152, 13);
+    font-size: 18px;
+    color: #182c9c;
+    padding: 10px 30px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.section{padding: 15px 0;}
+.section .title{padding: 10px 0;}
+
+.button{
+    padding: 10px 0;
+    text-align: center;
+}
+
+a{
+    border: 0;
+    outline: 0;
+    background-color:  rgb(228, 152, 13);
+    font-size: 18px;
+    color: #182c9c;
+
+    margin-left: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    background-color: white;
+}
+
+.forma div{
+    
+    background-color: rgb(233, 229, 248);
+}
+
+.forma{
+    background-color: rgb(233, 229, 248);
+    
+}
+
+.forma h2{
+    background-color: rgb(233, 229, 248);
+    color: rgb(228, 152, 13);
+    font-size: 3rem;
+    margin: 0 0;
+    text-align: center;
+}
+
+.title{
+    color: rgb(228, 152, 13);
+    font-size: 1.5rem;
+}
+
+.forma button{
+    justify-items: center;
+}
